@@ -1,0 +1,94 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button_MTM"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="맨투맨"
+            android:textSize="@dimen/btn_text"/>
+
+        <Button
+            android:id="@+id/button_knit"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="니트"
+            android:textSize="@dimen/btn_text"/>
+        <Button
+            android:id="@+id/button_hoodie"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="후드티"
+            android:textSize="@dimen/btn_text"/>
+        <Button
+            android:id="@+id/button_banT"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="반팔티"
+            android:textSize="@dimen/btn_text"
+            />
+        <Button
+            android:id="@+id/button_collarT"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="카라티"
+            android:textSize="@dimen/btn_text"
+            />
+        <Button
+            android:id="@+id/button_longSleeveT"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="긴팔티"
+            android:textSize="@dimen/btn_text"
+            />
+        <Button
+            android:id="@+id/button_shirts"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="셔츠"
+            android:textSize="@dimen/btn_text"
+            />
+        <Button
+            android:id="@+id/button_banShirts"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="반팔셔츠"
+            android:textSize="@dimen/btn_text"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,85 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button_Shorts"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="반바지"
+            android:textSize="@dimen/btn_text"
+            />
+        <Button
+            android:id="@+id/button_DenimPants"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="데님바지"
+            android:textSize="@dimen/btn_text"/>
+
+        <Button
+            android:id="@+id/button_slacks"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="슬랙스"
+            android:textSize="@dimen/btn_text"/>
+
+        <Button
+            android:id="@+id/button_cottonPants"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="면바지"
+            android:textSize="@dimen/btn_text"/>
+
+        <Button
+            android:id="@+id/button_trainingPants"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="트레이닝"
+            android:textSize="@dimen/btn_text"/>
+
+        <Button
+            android:id="@+id/button_linenPants"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="리넨바지"
+            android:textSize="@dimen/btn_text"/>
+
+        <Button
+            android:id="@+id/button_corduroy"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="골덴바지"
+            android:textSize="@dimen/btn_text" />
+
+    </LinearLayout>
+
+</ScrollView>

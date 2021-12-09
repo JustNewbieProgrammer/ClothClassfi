@@ -1,0 +1,103 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button_winterCoat"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="겨울코트"
+            android:textSize="@dimen/btn_text"
+            />
+        <Button
+            android:id="@+id/button_springFallCoat"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="환절기\n코트"
+            android:textSize="@dimen/btn_text"
+            />
+        <Button
+            android:id="@+id/button_denimTruckerJacket"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="데님\n트러커\n자켓"
+            android:textSize="@dimen/btn_text"/>
+
+        <Button
+            android:id="@+id/button_cardigan"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="가디건"
+            android:textSize="@dimen/btn_text"/>
+        <Button
+            android:id="@+id/button_shortPadding"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="숏패딩"
+            android:textSize="@dimen/btn_text"/>
+        <Button
+            android:id="@+id/button_fleece"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="후리스"
+            android:textSize="@dimen/btn_text"/>
+        <Button
+            android:id="@+id/button_minimalJacket"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="미니멀
+자켓"
+            android:textSize="@dimen/btn_text"/>
+
+        <Button
+            android:id="@+id/button_zipUpHoodie"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="후드집업"
+            android:textSize="@dimen/btn_text"/>
+
+        <Button
+            android:id="@+id/button_ma1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/press_image"
+            android:text="MA-1"
+            android:textSize="@dimen/btn_text"/>
+
+    </LinearLayout>
+
+</ScrollView>

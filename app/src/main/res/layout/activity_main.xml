@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/buttonTop"
+        android:layout_width="@dimen/btn_size"
+        android:layout_height="@dimen/btn_size"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/press_image"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_shirt" />
+
+    <ImageButton
+        android:id="@+id/buttonBot"
+        android:layout_width="@dimen/btn_size"
+        android:layout_height="@dimen/btn_size"
+        android:padding="40dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/press_image"
+        app:layout_constraintBottom_toTopOf="@+id/buttonOuter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTop"
+        app:srcCompat="@drawable/ic_jean" />
+
+    <ImageButton
+        android:id="@+id/buttonOuter"
+        android:layout_width="@dimen/btn_size"
+        android:layout_height="@dimen/btn_size"
+        android:layout_marginBottom="32dp"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="20dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/press_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBot"
+        app:srcCompat="@drawable/ic_robe" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LayoutTopDetail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvShoulder"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#BF000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_TopTotal"
+        app:layout_constraintTop_toBottomOf="@+id/tv2" />
+
+    <TextView
+        android:id="@+id/tvSleeve"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#BF000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tvChest"
+        app:layout_constraintTop_toBottomOf="@+id/tv4" />
+
+    <TextView
+        android:id="@+id/tvChest"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#BF000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tvShoulder"
+        app:layout_constraintTop_toBottomOf="@+id/tv3" />
+
+    <TextView
+        android:id="@+id/tv_TopTotal"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#BF000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+    <TextView
+        android:id="@+id/tv_topName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="이름"
+        android:textColor="#80000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_realName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_topName" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:text="총장"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_realName" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:text="어깨너비"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_realName" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:text="가슴단면"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_realName" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:text="소매길이"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv3"
+        app:layout_constraintTop_toBottomOf="@+id/tv_realName" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="삭제"
+        android:textColor="@color/delete_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonModify"
+        app:layout_constraintTop_toBottomOf="@+id/tvSleeve"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonModify"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:text="수정"
+        android:textColor="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSleeve"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
